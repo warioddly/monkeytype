@@ -1,6 +1,6 @@
 # monkeytype
 
-A new Flutter project.
+description
 
 ## Getting Started
 
