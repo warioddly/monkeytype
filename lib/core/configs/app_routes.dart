@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
-import 'package:monkeytype/features/home/view/home_view.dart';
+import 'package:monkeytype/features/typing/view/typing_view.dart';
 
 
 class AppRoute {
 
 
-  static const String initialRoute = HomeView.route;
+  static const String initialRoute = TypingView.route;
 
   static Map<String, Widget Function(BuildContext)> routes = {
-    HomeView.route: (context) => const HomeView(),
+    TypingView.route: (context) => const TypingView(),
   };
 
 
