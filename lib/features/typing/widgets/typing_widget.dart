@@ -121,7 +121,6 @@ class _TypingWidgetState extends State<TypingWidget> {
 
     setState(() {});
 
-
     _timer?.cancel();
 
     _timer = Timer(const Duration(milliseconds: 1000), () {

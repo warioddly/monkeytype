@@ -51,6 +51,20 @@ class AppTheme {
       appBarTheme: const AppBarTheme(
         backgroundColor: AppColors.black,
         centerTitle: true,
+        actionsIconTheme: IconThemeData(
+            color: AppColors.white,
+        ),
+      ),
+      iconButtonTheme:  const IconButtonThemeData(
+        style: ButtonStyle(
+          enableFeedback: true,
+        ),
+      ),
+      pageTransitionsTheme: const PageTransitionsTheme(
+        builders: {
+          TargetPlatform.android: CupertinoPageTransitionsBuilder(),
+          TargetPlatform.iOS: CupertinoPageTransitionsBuilder(),
+        },
       ),
     );
   }
